@@ -2,11 +2,11 @@ package com.java.progpractice;
 
 class ReverseString {
     public static void main(String[] args) {
-        String s = "Automation";
-        String rev = "";
-        for (int i = 0; i <= s.length() - 1; i++) {
-            rev = s.charAt(i) + rev;
+        String origin = "Automation";
+        String reverse = "";
+        for (int i = 0; i <= origin.length() - 1; i++) {
+            reverse = origin.charAt(i) + reverse;
         }
-        System.out.println("Reverse String :" + rev);
+        System.out.println("Reverse:" + reverse);
     }
 }
